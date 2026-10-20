@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>倒數日、紀念日、考試倒數怎麼設？主畫面小工具一眼看剩幾天</title>
+<meta name="description" content="用 CountDaysNow 設定倒數日與紀念日：將至、今天、已過三種檢視，主畫面小工具、鎖定畫面與動態島顯示倒數，剩 7、3、1 天與每一周年提醒，還能同時顯示農曆或民國曆。">
+<link rel="canonical" href="https://open.cait518.cc/countdaysnow-support/countdown-days-tw.zh-Hant.html">
+<meta property="og:title" content="倒數日、紀念日、考試倒數怎麼設？主畫面小工具一眼看剩幾天">
+<meta property="og:description" content="用 CountDaysNow 設定倒數日與紀念日：將至、今天、已過三種檢視，主畫面小工具、鎖定畫面與動態島顯示倒數，剩 7、3、1 天與每一周年提醒，還能同時顯示農曆或民國曆。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://open.cait518.cc/countdaysnow-support/countdown-days-tw.zh-Hant.html">
+<meta name="apple-itunes-app" content="app-id=6807079789">
+<style>
+:root{color-scheme:light dark;--bg:#fbfaf7;--fg:#1d1d1f;--muted:#5f6368;--line:rgba(128,128,128,.22);--accent:#2f6fde;--card:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#141416;--fg:#ececf0;--muted:#a3a3ab;--card:#1d1d21;--accent:#7aa7ff}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","PingFang TC","Noto Sans CJK TC","Apple SD Gothic Neo",Roboto,sans-serif}
+a{color:var(--accent)}
+.helpdoc{max-width:820px;margin:0 auto;padding:28px 16px 64px}
+.helpdoc h1{font-size:clamp(26px,4.4vw,36px);line-height:1.3;margin:.2em 0 .4em}
+.helpdoc h2{font-size:clamp(19px,2.8vw,24px);margin:2.1em 0 .6em;scroll-margin-top:16px}
+.helpdoc h3{font-size:17px;margin:1.5em 0 .35em}
+.helpdoc .lede{font-size:17.5px;color:var(--muted);margin:0 0 1.4em}
+.helpdoc .hd-nav{display:flex;flex-wrap:wrap;gap:14px;font-size:14px;margin:0 0 20px}
+.helpdoc .hd-toc{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 8px;padding:0;list-style:none}
+.helpdoc .hd-toc a{display:inline-block;padding:5px 12px;border:1px solid var(--line);border-radius:999px;font-size:13.5px;text-decoration:none}
+.helpdoc .tbl{overflow-x:auto;margin:.8em 0}
+.helpdoc table{width:100%;border-collapse:collapse;font-size:15px}
+.helpdoc th,.helpdoc td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+.helpdoc th{font-weight:650;white-space:nowrap}
+.helpdoc .box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin:1em 0}
+.helpdoc .cta{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:2.4em 0 1em}
+.helpdoc .cta a.btn{display:inline-block;margin:6px 0;padding:11px 20px;border-radius:999px;background:var(--accent);color:#fff;font-weight:650;text-decoration:none}
+.helpdoc .hd-q{margin:1.4em 0 .3em;font-weight:650;font-size:16.5px}
+.helpdoc .hd-a{margin:0 0 .2em}
+.helpdoc .hd-note{font-size:13px;color:var(--muted);margin-top:2.6em;border-top:1px solid var(--line);padding-top:14px}
+.helpdoc ul,.helpdoc ol{padding-left:1.25em}
+.helpdoc li{margin:.3em 0}
+@media print{.hd-nav,.cta,.hd-toc{display:none}body{background:#fff;color:#000}}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "倒數日、紀念日、考試倒數怎麼設？主畫面小工具一眼看剩幾天", "description": "用 CountDaysNow 設定倒數日與紀念日：將至、今天、已過三種檢視，主畫面小工具、鎖定畫面與動態島顯示倒數，剩 7、3、1 天與每一周年提醒，還能同時顯示農曆或民國曆。", "inLanguage": "zh-Hant", "mainEntityOfPage": "https://open.cait518.cc/countdaysnow-support/countdown-days-tw.zh-Hant.html", "dateModified": "2026-10-20", "author": {"@type": "Organization", "@id": "https://open.cait518.cc/ios-app-guide/#organization", "name": "Lumi Studio", "url": "https://open.cait518.cc/ios-app-guide/about.html"}, "publisher": {"@type": "Organization", "@id": "https://open.cait518.cc/ios-app-guide/#organization", "name": "Lumi Studio", "url": "https://open.cait518.cc/ios-app-guide/about.html"}, "about": {"@type": "SoftwareApplication", "name": "CountDaysNow: Event Counter", "operatingSystem": "iOS", "applicationCategory": "LifestyleApplication", "url": "https://apps.apple.com/app/id6807079789"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "zh-Hant", "mainEntity": [{"@type": "Question", "name": "怎麼看離某天還有幾天？", "acceptedAnswer": {"@type": "Answer", "text": "建立事件後到「將至」檢視，或把事件放到主畫面小工具。"}}, {"@type": "Question", "name": "有哪些小工具？", "acceptedAnswer": {"@type": "Answer", "text": "主畫面小工具全尺寸（含 iPad 特大型）、「接下來 3 件」小工具、鎖定畫面與動態島倒數，Apple Watch 離線也能用。"}}, {"@type": "Question", "name": "可以算交往或紀念日已經幾天嗎？", "acceptedAnswer": {"@type": "Answer", "text": "可以，「已過」檢視會顯示過去事件已經走過多久。"}}, {"@type": "Question", "name": "會提醒紀念日嗎？", "acceptedAnswer": {"@type": "Answer", "text": "剩 7 天、3 天、1 天、當天、第 100 天與每一周年都會提醒。"}}, {"@type": "Question", "name": "可以顯示農曆嗎？", "acceptedAnswer": {"@type": "Answer", "text": "可以，每個事件都能在西元日期旁同時顯示農曆、民國等第二種曆法。"}}, {"@type": "Question", "name": "需要訂閱嗎？", "acceptedAnswer": {"@type": "Answer", "text": "不需要。一次買斷就全部解鎖，無廣告、不需帳號。"}}]}</script>
+</head>
+<body>
+<p class="first-party-disclosure" data-first-party-disclosure="banner" role="note" style="margin:0;padding:8px 16px;background:#f3f4f6;color:#1f2937;border-bottom:1px solid #d1d5db;font-size:13px;line-height:1.5;text-align:center">本站由這些 App 的開發者 Lumi Studio 營運，介紹的是我們自己的 App。</p>
+<main class="helpdoc">
+<nav class="hd-nav"><a href="zh-Hant/">支援首頁</a><a href="zh-Hant/support.html">說明與常見問題</a><a href="https://apps.apple.com/tw/app/id6807079789?pt=118326163&amp;ct=bm_countdaysnow_tw_seo&amp;mt=8">CountDaysNow: Event Counter</a><a href="https://play.google.com/store/apps/details?id=com.alice51849.CountDaysNow&amp;referrer=utm_source%3Dbm_countdaysnow_tw_seo%26utm_campaign%3Dcountdaysnow" rel="noopener" data-ls-play="nav">Google Play</a></nav>
+<h1>倒數日、紀念日一次管好：將至、今天、已過</h1>
+<p class="lede">想隨時知道離考試、旅行或生日還有幾天，最方便的是把<strong>倒數日</strong>放到主畫面小工具。CountDaysNow 把未來、今天與過去的事件分成「將至、今天、已過」三個檢視，精準計算天數；動態島、鎖定畫面與 Apple Watch 都看得到倒數，剩 7 天、3 天、1 天、當天、第 100 天與每一周年都會提醒，<strong>紀念日</strong>和<strong>考試倒數</strong>都適用。</p>
+<p><strong>本頁目錄</strong></p>
+<ul class="hd-toc"><li><a href="#views">將至、今天、已過：三種計日方式</a></li><li><a href="#steps">設定倒數日小工具的步驟</a></li><li><a href="#exam">考試倒數範本</a></li><li><a href="#anniversary">紀念日與共同倒數</a></li><li><a href="#privacy">隱私與購買方式</a></li><li><a href="#faq">常見問題</a></li></ul>
+<h2 id="views">將至、今天、已過：三種計日方式</h2>
+<p>有些日子還沒到，有些就在今天，有些想知道已經走過多久。CountDaysNow 分成三個清楚的檢視，並有日期計算器，可以加減日期或比較兩個日期。</p><div class="tbl"><table><thead><tr><th>檢視</th><th>回答的問題</th><th>例子</th></tr></thead><tbody><tr><td>將至</td><td>還有幾天？</td><td>會考、學測、出國、婚禮、生日</td></tr><tr><td>今天</td><td>今天有什麼？</td><td>每日焦點、今天的事件</td></tr><tr><td>已過</td><td>已經幾天了？</td><td>交往紀念日、戒菸日、搬家日</td></tr></tbody></table></div>
+<h2 id="steps">設定倒數日小工具的步驟</h2>
+<ol><li>建立事件並設定日期，可以依分類整理。</li><li>需要的話設定重複事件（可選結束日期）並安排提醒。</li><li>在主畫面加入小工具（全尺寸支援，含 iPad 特大型），或用「接下來 3 件」一次看最近三個日子。</li><li>在鎖定畫面與動態島持續顯示倒數。</li><li>在西元日期旁同時顯示第二種曆法，例如農曆或民國曆。</li><li>只從行事曆匯入你親自選取的事件；告一段落的里程碑可以封存，不會遺失紀錄。</li></ol>
+<h2 id="exam">考試倒數範本</h2>
+<p>準備考試時，可以這樣排：</p><ul><li>建立「考試日」事件，放到主畫面小工具，每天看剩幾天。</li><li>另外建立「模擬考」「報名截止」等事件，用「接下來 3 件」小工具一次看完。</li><li>利用剩 7 天、3 天、1 天的提醒安排最後衝刺。</li><li>考完把事件封存，紀錄還在，之後還能回顧。</li></ul>
+<h2 id="anniversary">紀念日與共同倒數</h2>
+<p>紀念日設成每年重複，第 100 天與每一周年都會提醒。100 款倒數樣式可以先預覽再解鎖，分享卡可以匯出成方形、直式或限時動態三種比例；單一倒數也能和其他 CountDaysNow 使用者共同更新。</p>
+<h2 id="privacy">隱私與購買方式</h2>
+<p>無廣告、無訂閱、不需帳號。CountDaysNow 不使用第三方分析或追蹤工具，也不會將資料傳送到開發者伺服器。iPhone 與 iPad 透過你的私人 iCloud 同步，每次更新前都會先在本機建立快照。以 App 內購買一次買斷就全部解鎖。</p>
+<div class="cta">
+<p><strong>想直接在 iPhone 上做？</strong> 建立你的下一個倒數日，放到主畫面小工具上。</p>
+<p><a class="btn" href="https://apps.apple.com/tw/app/id6807079789?pt=118326163&amp;ct=bm_countdaysnow_tw_seo&amp;mt=8">在 App Store 查看 CountDaysNow: Event Counter</a></p>
+<p><strong>使用 Android？</strong></p>
+<p><a class="btn" href="https://play.google.com/store/apps/details?id=com.alice51849.CountDaysNow&amp;referrer=utm_source%3Dbm_countdaysnow_tw_seo%26utm_campaign%3Dcountdaysnow" rel="noopener" data-ls-play="cta">在 Google Play 查看 CountDaysNow: Event Counter</a></p>
+<p>已經在用 CountDaysNow: Event Counter？可以到 App Store 留下評分或評論。 <a href="https://apps.apple.com/app/id6807079789?action=write-review">撰寫評論</a></p>
+</div>
+<h2 id="faq">常見問題</h2>
+<p class="hd-q">怎麼看離某天還有幾天？</p>
+<p class="hd-a">建立事件後到「將至」檢視，或把事件放到主畫面小工具。</p>
+<p class="hd-q">有哪些小工具？</p>
+<p class="hd-a">主畫面小工具全尺寸（含 iPad 特大型）、「接下來 3 件」小工具、鎖定畫面與動態島倒數，Apple Watch 離線也能用。</p>
+<p class="hd-q">可以算交往或紀念日已經幾天嗎？</p>
+<p class="hd-a">可以，「已過」檢視會顯示過去事件已經走過多久。</p>
+<p class="hd-q">會提醒紀念日嗎？</p>
+<p class="hd-a">剩 7 天、3 天、1 天、當天、第 100 天與每一周年都會提醒。</p>
+<p class="hd-q">可以顯示農曆嗎？</p>
+<p class="hd-a">可以，每個事件都能在西元日期旁同時顯示農曆、民國等第二種曆法。</p>
+<p class="hd-q">需要訂閱嗎？</p>
+<p class="hd-a">不需要。一次買斷就全部解鎖，無廣告、不需帳號。</p>
+
+
+
+<p class="hd-note">本頁由 CountDaysNow: Event Counter 開發者在 AI 協助下撰寫，並對照 App Store 商店頁內容核對。最後更新：2026-10-20。</p>
+</main>
+</body>
+</html>
