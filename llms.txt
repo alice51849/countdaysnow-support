@@ -13,11 +13,5 @@
 - [Help, FAQ and troubleshooting](https://open.cait518.cc/countdaysnow-support/help.html)
 - [Support and contact](https://open.cait518.cc/countdaysnow-support/support.html)
 - [Privacy policy](https://open.cait518.cc/countdaysnow-support/privacy.html)
-- [Đếm ngược ngày Tết, sinh nhật, ngày thi (tiếng Việt)](https://open.cait518.cc/countdaysnow-support/dem-nguoc-ngay-tet-sinh-nhat.vi.html)
-- [عد تنازلي: كم باقي على مناسبتك (العربية)](https://open.cait518.cc/countdaysnow-support/ad-tanazuli-kam-baqi.ar-SA.html)
-- [What is CountDaysNow? (English)](https://open.cait518.cc/countdaysnow-support/what-is-countdaysnow.html)
-- [CountDaysNow란? (한국어)](https://open.cait518.cc/countdaysnow-support/what-is-countdaysnow.ko.html)
-- [CountDaysNow คืออะไร (ไทย)](https://open.cait518.cc/countdaysnow-support/what-is-countdaysnow.th.html)
-- [CountDaysNow 是什麼？（繁體中文）](https://open.cait518.cc/countdaysnow-support/what-is-countdaysnow.zh-Hant.html)
 
 <!-- ls-llms: managed by support_network/gen_support_crosspromo.py -->
